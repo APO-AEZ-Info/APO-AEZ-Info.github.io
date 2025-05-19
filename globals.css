@@ -1,0 +1,77 @@
+:root{
+    --apo-blue: #0033AB;
+    --apo-gold: #F7B512;
+
+    --ibm-cool-gray-100: #121619;
+    --ibm-cool-gray-90: #21272a;
+    --ibm-cool-gray-80: #343a3f;
+    --ibm-cool-gray-70: #4d5358;
+    --ibm-cool-gray-60: #697077;
+    --ibm-cool-gray-50: #878d96;
+    --ibm-cool-gray-40: #a2a9b0;
+    --ibm-cool-gray-30: #c1c7cd;
+    --ibm-cool-gray-20: #dde1e6;
+    --ibm-cool-gray-10: #f2f4f8;
+
+
+    font-family: 'Roboto';
+}
+
+div, nav{
+    margin: 0;
+}
+
+p, h1,h2,h3,h4,h5, a{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title-pin{
+    width: 50px;
+}
+.title-text{
+    color: var(--apo-blue);
+    font-weight: 900;
+}
+.title-text-span{
+    font-size: small;
+}
+
+.nav{
+    display: flex;
+    background-color: var(--apo-blue);
+    padding: 0em 5rem;
+
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.nav-link:hover{
+    color: var(--apo-gold);
+    transition: 0.3s;
+}
+
+.placeholder{
+    height: 120px;
+}
+
+footer{
+
+    margin-top: 3rem;
+    background-color: var(--apo-blue);
+    color: white;
+
+    padding: 3rem;
+}
