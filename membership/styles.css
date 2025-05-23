@@ -1,0 +1,103 @@
+.heading{
+    color: var(--apo-blue);
+    margin: 1rem 0;
+}
+
+.text-content{
+    margin: 0 17vw;
+}
+
+.stages-container{
+    margin: 3rem;
+
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.membership-container{
+    padding: 1rem 17vw;
+    background-color: var(--ibm-cool-gray-10);
+}
+
+.membership-header-and-body{
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.membership-header{
+    color: var(--apo-blue);
+    margin-bottom: 1rem; 
+}
+
+.membership-lists{
+    display: flex;
+    justify-content: center;
+}
+
+.membership-list-header{
+    margin-bottom: 0.5em;
+    color: var(--apo-blue)
+}
+
+.membership-list-container{
+    width: 33%;
+    padding-right: 2rem;
+    padding-left: 1rem;
+
+    border-left: 3px solid var(--apo-gold);
+}
+
+
+
+.stage-div{
+    background: var(--apo-blue);
+    padding: 2rem;
+    width: 25%;
+}
+
+.stage-header{
+    color: var(--apo-gold);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.stage-body{
+    color: white;
+}
+
+.timeline-container{
+    margin: 0 17vw;
+}
+
+
+.timeline-week-container{
+    background-color: var(--ibm-cool-gray-10);
+    display: flex;
+}
+
+.timeline-week-text-container{
+    border-right: 2px solid var(--ibm-cool-gray-60);
+    width: 20%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-week-text{
+    color: var(--ibm-cool-gray-60);
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.timeline-events-container{
+    padding: 1rem;
+}
+
+.timeline-event{
+    font-size: 1rem;
+    font-weight: 500;
+
+}

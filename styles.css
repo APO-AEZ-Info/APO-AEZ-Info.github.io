@@ -55,7 +55,7 @@
 }
 
 .mission-container{
-    margin: 3rem 20vw;
+    margin: 3rem 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,12 +77,14 @@
 }
 
 .mission-text-box{
-    width: 90%
+    width: 90%;
 }
 
 .mission-title{
     color: var(--apo-blue);
     font-weight: 900;
+
+    margin: 1rem 0;
 }
 
 .mission-text{
