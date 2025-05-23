@@ -16,9 +16,41 @@
 }
 
 .membership-container{
-    padding: 1rem 17vw;
-    background-color: var(--ibm-cool-gray-10);
+    margin: 1rem 17vw;
+    padding: 1rem;
+    background-color: var(--apo-blue);
+    color: white;
+
+    border: 2px solid white;
+
+    box-shadow: 10px 5px  var(--apo-gold);
 }
+
+.membership-container:hover{
+    transform: translateY(-5px);
+    transition: 0.4s;
+
+    background-color: var(--apo-gold);
+    box-shadow: 10px 10px  var(--apo-blue);
+
+    color: black;
+}
+
+.membership-container:hover .membership-header{
+    color: var(--apo-blue);
+}
+
+.membership-container:hover .membership-list-header{
+    color: var(--apo-blue);
+}
+
+.membership-container:hover .membership-list-container{
+    border-color: var(--apo-blue);
+}
+
+
+
+
 
 .membership-header-and-body{
     margin-bottom: 1rem;
@@ -26,18 +58,17 @@
 }
 
 .membership-header{
-    color: var(--apo-blue);
+    color: var(--apo-gold);
     margin-bottom: 1rem; 
 }
 
 .membership-lists{
     display: flex;
-    justify-content: center;
 }
 
 .membership-list-header{
     margin-bottom: 0.5em;
-    color: var(--apo-blue)
+    color: var(--apo-gold)
 }
 
 .membership-list-container{
