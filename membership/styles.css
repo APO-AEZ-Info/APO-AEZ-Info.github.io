@@ -72,7 +72,7 @@
 }
 
 .membership-list-container{
-    width: 33%;
+    width: 25%;
     padding-right: 2rem;
     padding-left: 1rem;
 
@@ -98,7 +98,7 @@
 }
 
 .timeline-container{
-    margin: 0 17vw;
+    margin: 3rem 17vw;
 }
 
 
@@ -155,6 +155,7 @@
 
     .timeline-container{
         margin: 1rem;
+
     }
 
     .timeline-week-container{
@@ -172,6 +173,5 @@
     .timeline-event{
         padding: 0 0.5rem;
         margin: 0.5rem 0;
-        border-left: 1px solid;
     }
 }
