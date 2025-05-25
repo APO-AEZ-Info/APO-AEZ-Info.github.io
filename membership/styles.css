@@ -4,7 +4,7 @@
 }
 
 .text-content{
-    margin: 0 17vw;
+    margin: 3rem 17vw;
 }
 
 .stages-container{
@@ -137,7 +137,7 @@
 
 @media(max-width: 500px){
     .text-content{
-        margin: 0 1rem;
+        margin: 3rem 1rem;
     }
 
     .membership-container{
